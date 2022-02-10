@@ -5,7 +5,6 @@ class rectangle {
 	int Width; // if its a square all sides are the same so you do not need this variable
 public:
 	void setlength(int a) { // set the length of the square
-
 		Length = a;
 	}
 	int getlength(int a) { // get the length of the square
