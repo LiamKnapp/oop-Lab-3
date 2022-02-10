@@ -15,7 +15,7 @@ public:
 	//void setwidth(int a) { // set width (not needed if shape is a square)
 	//	cout << "Set Dimensions:" << endl;
 	//	Width = a;
-	// Length = Width;
+	//  Length = Width;
 	//}
 	//int getwidth(int a) { // set the width of the square
 	//	return Length;
