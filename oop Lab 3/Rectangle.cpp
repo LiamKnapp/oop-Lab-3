@@ -7,20 +7,20 @@ public:
 	void setlength(int a) { // set the length of the square
 		Length = a;
 	}
-	int getlength(int a) { // get the length of the square
+	int getlength(void) { // get the length of the square
 		return Length;
 	}
 
 	void setwidth(int a) { // set width (not needed if shape is a square)
 		Width = a;
 	}
-	int getwidth(int a) { // set the width of the square
+	int getwidth(void) { // set the width of the square
 		return Width;
 	}
 
-	void area() { // calculate the area of the square
+	int area() { // calculate the area of the square
 		int Area;
 		Area = Length * Width;
-		cout << "Area of rectangle with dimensions: (" << Length << ", " << Width << ") Is: " << Area << endl;
+		return Area;
 	}
 };
