@@ -8,7 +8,8 @@ public:
 		Length = a;
 		Width = Length;
 	}
-	int getlength(int a) { // get the length of the square
+	//changed this function so that it doesn't take any parameters
+	int getlength() { // get the length of the square
 		return Length;
 	}
 
@@ -21,9 +22,18 @@ public:
 	//	return Length;
 	//}
 
-	void area() { // calculate the area of the square
+	// changed this function from void to int because I needed it to return a value to solve the equation
+	int area() { // calculate the area of the square
 		int Area;
 		Area = Length * Width;
-		cout << "Area of square with dimensions: (" << Length << ", " << Width << ") Is: " << Area << endl;
-	}
+		//moved the message outside the function because it duplicate everytime the function is called in the equation
+		//cout << "Area of square with dimensions: (" << Length << ", " << Width << ") Is: " << Area << endl;
+		return Area;
+	} 
 };
+
+
+
+
+
+
