@@ -29,7 +29,11 @@ public:
 		//moved the message outside the function because it duplicate everytime the function is called in the equation
 		//cout << "Area of square with dimensions: (" << Length << ", " << Width << ") Is: " << Area << endl;
 		return Area;
-	} 
+	}
+	void printSquare(square s) {
+		cout << "Area of square with dimensions, S1: (" << s.getlength() << " " << s.getlength() << ") Is: " << s.area() << endl;
+	}
+
 };
 
 

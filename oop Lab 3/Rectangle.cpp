@@ -23,4 +23,8 @@ public:
 		Area = Length * Width;
 		return Area;
 	}
+
+	void printRectangle(rectangle r) {
+		cout << "Area of rectangle with dimensions: (" << r.getlength() << ", " << r.getwidth() << ") Is: " << r.area() << endl;
+	}
 };
